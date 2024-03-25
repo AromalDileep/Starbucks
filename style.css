@@ -1,0 +1,384 @@
+body {
+  margin: 0;
+}
+* {
+  font-family: SoDoSans_Regular, Helvetica, sans-serif;
+  font-weight: 400;
+}
+h2 {
+  font-weight: 700;
+}
+h3 {
+  font-weight: 600;
+}
+.head {
+  width: 1355px;
+  height: 73px;
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  position: fixed;
+  top: 0;
+  background: white;
+  z-index: 9999;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.head_div {
+  width: 100%;
+  height: 72px;
+  display: flex; /* Turn .head_div into a flex container */
+  align-items: center; /* Vertically center the content */
+  margin-left: 120px;
+  margin-right: 135px;
+}
+
+.logo_div {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+}
+.home_row {
+  width: 493.3px;
+  height: 72px;
+  margin-left: 15px;
+  font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.home_row a {
+  font-size: 14px;
+  font-weight: 400;
+}
+.home_row a:hover {
+  font-weight: bold;
+  font-size: inherit;
+  font-family: inherit;
+  border-bottom: 2px solid #00754a;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.in_item {
+  width: 100%;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search {
+  width: 406px;
+  height: inherit;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+
+.search-bar {
+  width: 206px;
+  height: 0.34rem;
+  margin-right: auto;
+  border-radius: 1.25rem;
+  font-size: 12px;
+  background-color: white;
+  background-image: url("https://www.starbucks.in/assets/icon/search.svg");
+  background-position: 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+
+  box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+  border: none;
+}
+.quote {
+  width: 100%;
+  height: 80px;
+  background: rgb(30, 57, 50);
+  margin-top: 76px;
+  margin-bottom: 1.5em;
+}
+
+a:active {
+  font-weight: bold;
+}
+.quote-div {
+  margin-bottom: 50px;
+  margin-left: 132px;
+  margin-right: 140px;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+}
+.know-more {
+  margin-left: auto;
+  margin-right: 15px;
+}
+.know-more-button {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #fff;
+  width: 96px;
+  height: 38px;
+  font-size: 12px;
+  border-radius: 4rem;
+  font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+}
+.Barista {
+  height: 316.8px;
+  width: 100%;
+  background: #edebe9;
+  position: relative;
+}
+.Barista img {
+  position: absolute; /* Add this line */
+  top: 0;
+  right: 0;
+}
+.Barista-Recommends {
+  width: 100%;
+  height: 60.8px;
+  display: flex;
+  margin-left: 120px;
+
+  font-family: SoDoSans_Light, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #1e3932;
+
+  margin-top: 1rem;
+}
+
+.view-menu {
+  height: inherit;
+  width: 100px;
+  margin-left: auto;
+  margin-right: 200px;
+}
+.view-menu a {
+  text-decoration: none;
+  color: #2e754a;
+  font-family: SoDoSans_Light, Helvetica, sans-serif;
+  font-size: 14px;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.sheets {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-sheet {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.recommends {
+  width: 30%;
+  height: 82%;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.food-div {
+  width: 85%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.food-img-name {
+  width: 100%;
+  height: 80px;
+  display: flex;
+}
+.food {
+  height: 80px;
+  width: 110px;
+  border-radius: 10px;
+}
+.name {
+  width: 100%;
+  height: 50%;
+  margin-top: 16px;
+  margin-left: 10px;
+  font-family: SoDoSans_Semibold, Helvetica, sans-serif !important;
+  font-size: 14px;
+  font-weight: 700;
+
+}
+.food-1 {
+  background-image: url("buna.jpg");
+  background-size: cover;
+  background-position: 50%;
+}
+.food-2 {
+  background-image: url("brownie.jpg");
+  background-size: cover;
+  background-position: 50%;
+}
+.food-3 {
+  background-image: url("dips.jpg");
+  background-size: cover;
+  background-position: 50%;
+}
+.add {
+  height: 32px;
+  width: 96px;
+  margin-left: 110px;
+  margin-top: 6px;
+  background-color: #006241;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+.add:hover {
+  background-color: #1e3932;
+}
+
+/** special offer **/
+
+.special-offer {
+  height: 252px;
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.special-offer-banner {
+  height: 210px;
+  width: 80%;
+  background-color: #006241;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: flex;
+}
+.offer-img {
+  width: 150px;
+  height: 100%;
+  background-image: url("special-offer.png");
+  background-size: cover;
+}
+.offer-order {
+  width: 100%;
+  height: 100%;
+  color: white;
+  margin-left: 25px;
+  font-weight: 400;
+}
+.order-btn {
+  width: 335px;
+  height: 100%;
+}
+.line {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.start {
+  font-size: 13px;
+}
+.btn {
+  width: 200px;
+  height: 49px;
+  color: #212121;
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  margin-top: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/** handcrafted area **/
+
+.handcrafted {
+  width: 100%;
+  height: 245px;
+  margin-top: 80px;
+
+}
+.handcrafted-curation {
+  width: 500px;
+  height: 52.8px;
+  margin-left: 10%;
+  color: #1e3932;
+}
+.menu-icons {
+  width: 1120px;
+  height: 109px;
+  margin-left: 8.5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.drink-name-div {
+  width: 1120px;
+  height: 21px;
+  margin-left: 8.5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.round-icon {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  background-image: url("https://www.starbucks.in/assets/icon/placeholder.svg");
+  background-size: cover;
+  background-position: 50%;
+}
+.drink-name{
+  height: 100%;
+  width: 108px;
+  color: #1e3932;
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+.latest-offerings-div{
+  width: 100%;
+  height: 420.8px;
+  background-color: yellowgreen;
+}
+.latest-offering{
+  width:703px ;
+  height: 28.2px;
+  background-color: red;
+  margin-left: 10%;
+  color: #1e3932;
+}
+.offer-sheet-div{
+  width: 1140px;
+  height: 360px;
+  background-color: pink;
+  margin-left: 8.3%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.offer-sheet{
+  height: 100%;
+  width: 347.33px;
+  background-color: green;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
