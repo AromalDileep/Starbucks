@@ -11,6 +11,10 @@ h2 {
 h3 {
   font-weight: 600;
 }
+a{
+  text-decoration: none;
+  color: inherit;
+}
 .head {
   width: 1355px;
   height: 73px;
@@ -434,4 +438,76 @@ a:active {
   background-image: url("nut.jpg");
   background-size: cover;
   background-position: 50%;
+}
+.more-coffee-div{
+  width: 100%;
+  height: 498px;
+  background-color: #edebe9;
+  margin-top: 80px;
+}
+.coffee-head-div{
+  width: 80%;
+  height: 60px;
+  margin-left: 10%;
+  display: flex;
+
+}
+.headline-div{
+  width: 84%;
+  height: 100%;
+  color: #1e3932;
+}
+.discover-div{
+  width: 16%;
+  height: 100%;
+  font-weight: 600;
+  font-size: 14px;
+}
+.discover-div p{
+  font-weight: 700;
+  font-size: 13px;
+  color: #007754;
+}
+.more-coffee-img-div{
+  width: 80%;
+  height: 372px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url("more-coffee.jpg");
+  background-size: cover;
+  background-position: 50%;
+  margin-left: 10%;
+  border-radius: 10px;
+  display: flex;
+  align-items: end;
+}
+.more-coffee-img-div:hover{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url("more-coffee.jpg");
+}
+.card-title-div{
+  width: 100%;
+  height: 143px;
+  margin-bottom: 47px;
+  margin-left: 40px;
+  color: white;
+}
+.learn-more{
+  width: 200px;
+  height: 32px;
+  margin-top: 15px;
+}
+.learn{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 12px;
+  font-weight: 700;
+}
+footer{
+  width: 100%;
+  height: 1000px;
+  background-color:#0e382c ;
 }
