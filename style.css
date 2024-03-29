@@ -87,6 +87,10 @@ a {
   align-items: center;
   margin-left: auto;
 }
+.search img:hover {
+  border: 1.5px solid #00754a;
+  border-radius: 50%;
+}
 .search-bar {
   width: 206px;
   height: 0.34rem;
@@ -230,17 +234,17 @@ a:active {
   font-weight: 700;
 }
 .food-1 {
-  background-image: url("buna.jpg");
+  background-image: url("images/buna.jpg");
   background-size: cover;
   background-position: 50%;
 }
 .food-2 {
-  background-image: url("brownie.jpg");
+  background-image: url("images/brownie.jpg");
   background-size: cover;
   background-position: 50%;
 }
 .food-3 {
-  background-image: url("dips.jpg");
+  background-image: url("images/dips.jpg");
   background-size: cover;
   background-position: 50%;
 }
@@ -282,7 +286,7 @@ a:active {
 .offer-img {
   width: 150px;
   height: 100%;
-  background-image: url("special-offer.png");
+  background-image: url("images/special-offer.png");
   background-size: cover;
 }
 .offer-order {
@@ -430,17 +434,17 @@ a:active {
   font-weight: 600;
 }
 .food-img-1 {
-  background-image: url("strawberry.jpg");
+  background-image: url("images/strawberry.jpg");
   background-size: cover;
   background-position: 50%;
 }
 .food-img-2 {
-  background-image: url("refresher.jpg");
+  background-image: url("images/refresher.jpg");
   background-size: cover;
   background-position: 50%;
 }
 .food-img-3 {
-  background-image: url("nut.jpg");
+  background-image: url("images/nut.jpg");
   background-size: cover;
   background-position: 50%;
 }
@@ -480,7 +484,7 @@ a:active {
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0.9)
     ),
-    url("more-coffee.jpg");
+    url("images/more-coffee.jpg");
   background-size: cover;
   background-position: 50%;
   margin-left: 10%;
@@ -495,7 +499,7 @@ a:active {
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 1)
     ),
-    url("more-coffee.jpg");
+    url("images/more-coffee.jpg");
  
 }
 .card-title-div {
@@ -559,7 +563,7 @@ footer {
   margin-top: 10px;
   width: 62px;
   height: 62px;
-  background-image: url(logo.png);
+  background-image: url(images/logo.png);
   background-size: cover;
   background-position: 50%;
   cursor: pointer;
@@ -568,7 +572,7 @@ footer {
 .appstore-div{
   width: 194px;
   height: 50px;
-  background-image: url("appstore.png");
+  background-image: url("images/appstore.png");
    background-size: cover;
   background-position: 50%;
   cursor: pointer;
@@ -577,7 +581,7 @@ footer {
   margin-top: 10px;
   width: 194px;
   height: 50px;
-  background-image: url("playstore.png");
+  background-image: url("images/playstore.png");
   background-size: cover;
   background-position: center;
   cursor: pointer;
